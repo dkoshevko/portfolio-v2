@@ -1,4 +1,4 @@
-import Link from "next/link";
+import ScrollLink from "./ScrollLink";
 
 type ButtonProps = {
   clicPath: string;
@@ -8,7 +8,7 @@ type ButtonProps = {
 export default function Button({ clicPath, text }: ButtonProps) {
   return (
     <div className="mt-3">
-      <Link
+      <ScrollLink
         href={clicPath}
         className="
           border-2 border-yellow-400 text-yellow-400 font-medium rounded-md py-3 px-6 z-10 relative duration-300 
@@ -18,7 +18,7 @@ export default function Button({ clicPath, text }: ButtonProps) {
         "
       >
         {text}
-      </Link>
+      </ScrollLink>
     </div>
   );
 }
