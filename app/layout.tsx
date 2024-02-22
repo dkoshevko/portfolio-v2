@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { bodyFont } from "@/fonts/fonts";
-import Header from "@/components/Header";
-
+import Header from "@/components/essentials/Header";
 
 export const metadata: Metadata = {
   title: "Denys Koshevko",
@@ -17,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={bodyFont.className}>
-      <Header />
+        <Header />
         {children}
       </body>
     </html>
