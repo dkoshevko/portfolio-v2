@@ -3,7 +3,7 @@ import { headingFont } from "@/fonts/fonts";
 
 export default function Header() {
   return (
-    <header className="w-full h-28">
+    <header className="absolute top-0 w-full h-28">
       <div className="container mx-auto px-4 h-full">
         <div className="flex justify-between items-center h-full">
           <h1

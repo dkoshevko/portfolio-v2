@@ -1,12 +1,30 @@
+import { headingFont } from "@/fonts/fonts";
 import Button from "../essentials/Button";
 
 
 export default function HomeSection() {
   return (
-    <section id="home">
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing</h2>
-      <p></p>
-      <Button clicPath="#projects" text="My projects" />
+    <section id="home" className="container mx-auto px-4 h-screen">
+      <div className="h-full flex flex-col justify-center">
+        <div className="w-1/3 space-y-2 mb-14">
+          <h2
+            className={`${headingFont.className} uppercase text-3xl font-medium`}
+          >
+            Lorem ipsum dolor sit
+            <br />
+            <span className="text-yellow-400">
+              amet consectetur adipisicing
+            </span>
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+            reiciendis neque beatae recusandae quis iste non consectetur eveniet
+            ratione nisi, ipsam in eum maiores, tempora fugit laboriosam cumque
+            unde voluptas!
+          </p>
+        </div>
+        <Button clicPath="#projects" text="My projects" />
+      </div>
     </section>
   );
 }
