@@ -2,7 +2,7 @@ import { headingFont } from "@/fonts/fonts";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="container mx-auto px-4 h-screen">
+    <section id="about" className="h-screen">
       <div className="h-full flex flex-col justify-center">
         <div className="w-1/3 space-y-2 mb-14">
           <h2
@@ -23,5 +23,5 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

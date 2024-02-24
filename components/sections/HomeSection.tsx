@@ -1,10 +1,9 @@
 import { headingFont } from "@/fonts/fonts";
 import Button from "../essentials/Button";
 
-
 export default function HomeSection() {
   return (
-    <section id="home" className="container mx-auto px-4 h-screen">
+    <section id="home" className="h-screen">
       <div className="h-full flex flex-col justify-center">
         <div className="w-1/3 space-y-2 mb-14">
           <h2
