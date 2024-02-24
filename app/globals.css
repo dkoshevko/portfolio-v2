@@ -17,3 +17,7 @@ section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
+
+.project-shadow {
+  box-shadow: 0 0 20px 0 rgb(250 204 21 / 1);
+}

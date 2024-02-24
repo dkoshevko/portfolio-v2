@@ -8,7 +8,7 @@ export default function AboutSection() {
           <h2
             className={`${headingFont.className} uppercase text-3xl font-medium`}
           >
-            Lorem ipsum dolor sit
+            About
             <br />
             <span className="text-yellow-400">
               amet consectetur adipisicing
