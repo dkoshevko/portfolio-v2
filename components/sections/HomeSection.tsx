@@ -1,5 +1,5 @@
 import { headingFont } from "@/fonts/fonts";
-import Button from "../essentials/Button";
+import { ButtonLink } from "../essentials/Button";
 
 export default function HomeSection() {
   return (
@@ -22,7 +22,7 @@ export default function HomeSection() {
             unde voluptas!
           </p>
         </div>
-        <Button clicPath="#projects" text="My projects" />
+        <ButtonLink clicPath="#projects" text="My projects" />
       </div>
     </section>
   );

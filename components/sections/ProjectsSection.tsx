@@ -1,6 +1,6 @@
 import { headingFont } from "@/fonts/fonts";
 import Image from "next/image";
-import Button from "../essentials/Button";
+import { ButtonLink } from "../essentials/Button";
 
 export default function ProjectsSection() {
   return (
@@ -31,7 +31,7 @@ export default function ProjectsSection() {
                 Technologies
               </h3>
               <span>React, SASS</span>
-              <Button clicPath="" text="Live project" />
+              <ButtonLink clicPath="" text="Live project" />
             </div>
           </div>
         </div>
